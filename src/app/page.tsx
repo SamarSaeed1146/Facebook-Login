@@ -2,19 +2,19 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-gray-100 h-screen flex items-center justify-center">
-      <div className="text-3xl w-1/2 px-10">
+    <div className="bg-gray-100 h-screen items-center justify-center sm:flex sm:items-center sm:justify-center">
+      <div className="text-3xl sm:w-1/2 px-10">
         <img
-          src="/facebook.svg"
+          src="/facebook.svg" 
           width={300}
           height={100}
           alt="Facebook Login"
         />
-        <p className="ml-8 -mt-3">
+        <p className="ml-8 -mt-3 mb-8">
           Facebook helps you connect and share with the people in your life.
         </p>
       </div>
-      <div className="bg-white flex flex-col p-5 rounded-md w-1/3">
+      <div className="bg-white flex flex-col p-5 rounded-md sm:w-1/3">
         <input
           className="my-2 border border-1 border-gray-100 p-3 focus:outline-1 outline-blue-700"
           type="text"
